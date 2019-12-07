@@ -1,7 +1,7 @@
 require 'pry'
-def reverse_each_word(string)
+def reverse_each_word("Hello there, and how are you?")
   reverse_each_word.each do |string|
-    puts string.reverse
+    return string.reverse
   end 
   # binding.pry 
   end 
